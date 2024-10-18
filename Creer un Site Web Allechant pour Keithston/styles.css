@@ -1,0 +1,481 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --browny: #E9BD8C;
+}
+.sec1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./image/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 9px black;
+}
+nav{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav img{
+    width: 150px;
+}
+
+.sec1 nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    
+
+}
+.sec1 a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: var(--browny) !important;
+    font-weight: bold;
+}
+.text1Sec1{
+    color: var(--browny);
+    font-size: 1.1rem;
+}
+.headSec1{
+    color: white;
+    font-size: 2.9rem;
+}
+button{
+    background-color: brown;
+    border: none;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.but2{
+    background-color: transparent;
+    border: 2px solid white;
+    color: var(--browny) !important;
+    font-weight: bold;
+}
+.textContainer{
+    margin-top: 200px;
+    margin-left: 70px;
+}
+.buttons{
+    margin-top: 60px;
+}
+
+.sec2 .card{
+    width: 360px;
+    height: 411px;
+}
+.card{
+    background-image: url(./image/background\ card\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 9px;
+}
+.card img{
+    display: block;
+    height: 200px;
+    margin:  auto;
+}
+
+.nameAndAdd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sec2{
+    width: 100vw;
+}
+.monGrid1{
+   
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 0px;
+   gap: 10px;
+   justify-content: center;
+   width: fit-content;
+   margin: 0 auto;
+
+
+}
+.sec2 h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+.cardText{
+   position: relative;
+   bottom: -80px;
+}
+.price{
+    margin-bottom: 30px;
+}
+.sec3{
+    width: 100vw;
+}
+.sec3 nav{
+    width: 100vw;
+}
+.sec3 ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--browny);
+}
+.sec3 li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+}
+.sec3 h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+.monGrid2 .card2{
+    width: 360px;
+    height: 350px;
+    border-radius: 10px;
+}
+.monGrid2 #img1{
+    background-image: url(./image/explore\ more\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.monGrid2 #img2{
+    background-image: url(./image/explore\ more\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.monGrid2 #img3{
+    background-image: url(./image/explore\ more\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.monGrid2 #img4{
+    background-image: url(./image/explore\ more\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.monGrid2 #img5{
+    background-image: url(./image/explore\ more\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.monGrid2 #img6{
+    background-image: url(./image/explore\ more\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.monGrid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: fit-content;
+    margin: 0 auto;
+    gap: 20px;
+}
+.sec4{
+    width: 100vw;
+    height: 454px;
+    background-image: url(./image/background\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 9px black;
+}
+.sec4 h2{
+    font-size: 39px;
+}
+.Sec4Text{
+    margin: 50px;
+    width: 700px;
+}
+.sec5{
+    width: 100vw;
+}
+.img1Sec5{
+    background-image: url(./image/featured\ treats\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+.img2Sec5{
+    background-image: url(./image/featured\ treats\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.img3Sec5{
+    background-image: url(./image/featured\ treats\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.monGrid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: fit-content;
+    gap: 10px;
+    margin: 20px auto;
+    
+}
+.sec5 .monGrid3 div{
+    height: 356px;
+    width: 360px;
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9px;
+}
+.monGrid3 p{
+    margin-top: 350px;
+    font-weight: bold;
+}
+.sec5 h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -80px;
+}
+
+/* section derniere style copied */
+
+.section7{
+    height: 500px;
+    width: 100vw;
+    margin-top: 100px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/1a8a/efce/e7dc162f158ab2c4936fcf8ea45adc1f?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hZ3-qVSuHtjO7l6WJKbhRRWU~AQA0Pr10vxeyulP~hALH7NZB8x1grGq-VgXmu2C9crLvn2JNPAx9nLbRRfjP0SBumtlduU-ef7NRBn-pP4vEEd9GDrM-acAAoOJiNoDEchGA8Ko7axjH24MEDCKYjzDY6aN2Bez8c8Kpw7srAnFNfHKByWbDHqB1IbC4H9vbv8pemUMcNm2lK49izkMVUykUaTqCScH94tRwaDTldxQNbV8Bvg1gyTUzLPVcZaYanB~gegpbSNiYSzzwyEuB5UUPB0~sL0Q~UW2tW8QiaSib~DqY46Jtk238HUxW7C~xgLifEpQyHPrn1rGeEbXjQ__);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 -5px 9px black;
+}
+
+
+
+.logoSection{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigBrand img{
+    width: 200px;
+    
+}
+
+.socialIcon i{
+    color: #E9BD8C;
+    font-size: 30px;  
+    margin-top: 100px; 
+    margin-right: 60px;
+}
+
+
+.puffPastry img{
+    width: 100px;
+    height: 67px;
+}
+.puffPastry1, .puffPastry2{
+    display: flex;
+    align-items: center;
+    
+}
+.monGrid7{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(5, 50px);
+    grid-template-areas: "un deux . trois"
+    "quatre cinq . six"
+    "sept huit . six"
+    "dix onze . douze"
+    "treize quatorze . douze";
+    justify-content: space-around;
+    row-gap: 0px;
+    color: white;
+
+    
+}
+.about, .explore, .news{
+    font-size: 26px;
+    color: #E9BD8C;
+    font-weight: bold;
+}
+.about{
+    grid-area: un;
+}
+.explore{
+    grid-area: deux;
+}
+.news{
+    grid-area: trois;
+}
+.num{
+    grid-area: quatre;
+}
+.home{
+    grid-area: cinq;
+}
+.puffPastry1{
+    grid-area: six;
+}
+.puffPastry1 img{
+    width: 80px;
+    margin-right: 13px;
+}
+.puffPastry2 img{
+    width: 80px;
+    margin-right: 13px;
+}
+.mail{
+    grid-area: sept;
+}
+.blog{
+    grid-area: huit;
+}
+.address{
+    grid-area: dix;
+}
+.contactUs{
+    grid-area: onze;
+}
+.puffPastry2{
+    grid-area: douze;
+}
+.city{
+    grid-area: treize;
+}
+.service{
+    grid-area: quatorze;
+}
+
+/* Media query */
+
+@media (min-width: 800px) and (max-width: 1140px){
+    nav img{
+        display: none;
+    }
+
+    .monGrid1{  
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+     }
+     .sec2{
+        width: fit-content;
+        margin: 0 auto;
+     }
+
+     .monGrid2{
+        
+        grid-template-columns: repeat(2, 1fr);
+        width: fit-content;
+  
+    }
+
+    .monGrid3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-content: center;
+        
+    }
+    .sec1 nav{
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 800px){
+    nav img{
+        display: none;
+    }
+
+    .monGrid1{  
+        grid-template-columns: 1fr;
+ 
+     }
+     .sec2{
+        width: fit-content;
+        margin: 0 auto;
+     }
+
+     .monGrid2{
+        
+        grid-template-columns: 1fr;
+ 
+    }
+
+    .monGrid3{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+
+        
+    }
+    .sec1 nav{
+        margin: 0 auto;
+    }
+
+    .sec3 nav{
+        display: none;
+    }
+    .Sec4Text{
+        width: fit-content;
+    }
+    .bigBrand{
+        display: none;
+    }
+    .socialIcon{
+        display: none;
+    }
+
+    .section7 hr{
+        display: none;
+    }
+    .section7{
+        padding-top: 100px;
+    }
+
+
+  
+
+   
+    
+}
